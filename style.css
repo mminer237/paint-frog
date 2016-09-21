@@ -1,0 +1,10 @@
+deleteButton {
+  visibility: visible;
+}
+div.noscriptmsg {
+  color: red;
+  font-size: 40px;
+}
+table thead {
+    font-weight: bold;
+}
