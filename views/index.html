@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cubic Curve</title>
+    <meta name="description" content="A cool thing made with HyperDev">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <noscript>
+      <div class="noscriptmsg">
+        You don't have javascript enabled.  That is definitely not going to work for a Javascript demo, stupid. -_-
+      </div>
+    </noscript>
+    Hello!<br>
+    <canvas id="myCanvas" width="600" height="600" style="border:1px solid #000000;">
+      Your browser does not support the canvas element.
+    </canvas><br>
+    Manually define points here:<br>
+    <form><table id="coordinateTable" style="width:600px">
+      <thead>
+        <tr>
+          <td>Handle #</td>
+          <td>x</td>
+          <td>y</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Handle 1</td>
+          <td><input type="number" id="handlex1"></td>
+          <td><input type="number" id="handley1"></td>
+          <td><input type="button" id="deleteButton1" value="🗑 Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Handle 2</td>
+          <td><input type="number" id="handlex2"></td>
+          <td><input type="number" id="handley2"></td>
+          <td><input type="button" id="deleteButton2" value="🗑 Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Handle 3</td>
+          <td><input type="number" id="handlex3"></td>
+          <td><input type="number" id="handley3"></td>
+          <td><input type="button" id="deleteButton3" value="🗑 Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Handle 4</td>
+          <td><input type="number" id="handlex4"></td>
+          <td><input type="number" id="handley4"></td>
+          <td><input type="button" id="deleteButton4" value="🗑 Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+      </tbody>
+    </table></form><br>
+    –Matthew
+    
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
