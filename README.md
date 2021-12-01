@@ -1,5 +1,3 @@
-This is a simple Snellen chart generator that I made in the HyperDev BETA (now Glitch) by Fog Creek.
+This is a simple bezier curve generator that I made in the HyperDev BETA (now Glitch) by Fog Creek.
 
-Original site is at: https://paint-frog.glitch.me/
-
-Glitch's site is https://glitch.me/
+Now hosted at: https://mminer237.github.io/paint-frog/
